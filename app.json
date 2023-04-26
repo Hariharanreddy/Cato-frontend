@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Cato",
+    "slug": "cato-ecommerce",
+    "privacy": "public",
+    "description": "CATO is your one-stop-shop for all things feline! Our app offers a wide selection of adorable cats to choose from, ranging from playful kittens to sophisticated purebreds. Whether you're a first-time cat owner or a seasoned cat lover, CATO has the perfect feline companion for you. With user-friendly navigation and convenient payment options, finding and adopting your new furry friend has never been easier. Download CATO today and start browsing our selection of cats that are waiting to become a part of your family!",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
