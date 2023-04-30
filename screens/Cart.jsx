@@ -68,7 +68,7 @@ const Cart = () => {
             {/* Heading */}
             <Heading
                 text1="Shopping"
-                text2="Cart"
+                text2="Bucket"
                 containerStyle={{ paddingTop: 70, marginLeft: 35 }}
             />
 
@@ -128,7 +128,7 @@ const Cart = () => {
             >
                 <Button
                     style={{
-                        backgroundColor: colors.color3,
+                        backgroundColor: colors.color1,
                         borderRadius: 100,
                         padding: 5,
                         margin: 30,

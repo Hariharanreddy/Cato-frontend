@@ -109,7 +109,7 @@ const Profile = ({ navigation, route }) => {
                                     uri: avatar,
                                 }}
                                 size={100}
-                                style={{ backgroundColor: colors.color5 }}
+                                style={{ backgroundColor: colors.color1 }}
                             />
 
                             <TouchableOpacity
@@ -144,6 +144,7 @@ const Profile = ({ navigation, route }) => {
                                     flexDirection: "row",
                                     margin: 10,
                                     justifyContent: "space-between",
+                                    marginTop: 40
                                 }}
                             >
                                 <ButtonBox
@@ -162,7 +163,7 @@ const Profile = ({ navigation, route }) => {
                                 <ButtonBox
                                     handler={navigateHandler}
                                     text={"Profile"}
-                                    icon={"pencil"}
+                                    icon={"account-edit"}
                                 />
                             </View>
 
@@ -176,7 +177,7 @@ const Profile = ({ navigation, route }) => {
                                 <ButtonBox
                                     handler={navigateHandler}
                                     text={"Password"}
-                                    icon={"pencil"}
+                                    icon={"lock-reset"}
                                 />
                                 <ButtonBox
                                     handler={navigateHandler}
@@ -201,7 +202,8 @@ const styles = StyleSheet.create({
         marginBottom: 20,
         borderWidth: 1,
         borderRadius: 30,
-        borderColor: "lightgray"
+        borderColor: "lightgray",
+        backgroundColor: colors.color7
     },
     name: {
         fontSize: 20,

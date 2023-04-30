@@ -87,8 +87,8 @@ const Home = () => {
                 }}>
                     {/* heading  */}
                     <Heading
-                        text1="Our"
-                        text2="Products"
+                        text1="Products"
+                        text2="& Adoptable Cats"
                     />
 
                     {/* seachbar */}
@@ -98,8 +98,9 @@ const Home = () => {
                         >
                             <Avatar.Icon
                                 icon={"magnify"}
-                                color={"gray"}
-                                style={{ backgroundColor: colors.color2, elevation: 12 }}
+                                color={colors.color1}
+                                style={{ backgroundColor: colors.color7, elevation: 12 }}
+                                size={60}
                             />
                         </TouchableOpacity>
                     </View>
@@ -122,7 +123,7 @@ const Home = () => {
                                 <Button
                                     key={item._id}
                                     style={{
-                                        backgroundColor: category === item._id ? colors.color1 : colors.color5,
+                                        backgroundColor: category === item._id ? colors.color1 : colors.color7,
                                         borderRadius: 50,
                                         margin: 5,
                                     }}

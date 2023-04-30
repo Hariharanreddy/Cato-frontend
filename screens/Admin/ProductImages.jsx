@@ -52,7 +52,7 @@ const ProductImages = ({ navigation, route }) => {
             style={{
                 ...defaultStyle,
                 backgroundColor: colors.color5,
-                padding: 10
+                padding: 30
             }}
         >
             <Header back={true} />
@@ -89,8 +89,8 @@ const ProductImages = ({ navigation, route }) => {
             <View
                 style={{
                     padding: 20,
-                    borderRadius: 10,
-                    backgroundColor: colors.color3,
+                    borderRadius: 20,
+                    backgroundColor: colors.color7,
                 }}
             >
                 <Image

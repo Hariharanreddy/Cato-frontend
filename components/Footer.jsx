@@ -30,7 +30,7 @@ const Footer = ({ activeRoute = "home" }) => {
     }
 
     const avatarOptions = {
-        color: colors.color2,
+        color: colors.color7,
         size: 50,
         style: {
             backgroundColor: colors.color1,
@@ -42,10 +42,10 @@ const Footer = ({ activeRoute = "home" }) => {
             <View
                 style={{
                     backgroundColor: colors.color1,
-                    borderTopRightRadius: 120,
-                    borderTopLeftRadius: 120,
+                    borderRadius: 120,
+                    margin: 10,
                     position: "absolute",
-                    width: "100%",
+                    width: "95%",
                     bottom: 0,
                 }}
             >
@@ -64,6 +64,7 @@ const Footer = ({ activeRoute = "home" }) => {
                             icon={activeRoute === "cart" ? "shopping" : "shopping-outline"}
                         />
                     </TouchableOpacity>
+                    
 
                     <TouchableOpacity
                         activeOpacity={0.8}
@@ -91,7 +92,7 @@ const Footer = ({ activeRoute = "home" }) => {
                         borderRadius: 100,
                         justifyContent: "center",
                         alignItems: "center",
-                        top: -40,
+                        top: -10,
                         alignSelf: "center",
                     }}
                 >

@@ -15,7 +15,7 @@ export const iconOptions = {
     size: 20,
     style: {
         borderRadius: 5,
-        backgroundColor: colors.color5,
+        backgroundColor: colors.color7,
         height: 25,
         width: 25,
     },
@@ -104,6 +104,7 @@ const ProductDetails = ({ route: { params } }) => {
                     numberOfLines={2}
                     style={{
                         fontSize: 25,
+                        color: colors.color1,
                     }}
                 >
                     {name}
@@ -113,6 +114,7 @@ const ProductDetails = ({ route: { params } }) => {
                     style={{
                         fontSize: 18,
                         fontWeight: "900",
+                        color: colors.color1,
                     }}
                 >
                     ₹{price}
@@ -123,6 +125,7 @@ const ProductDetails = ({ route: { params } }) => {
                         letterSpacing: 1,
                         lineHeight: 20,
                         marginVertical: 15,
+
                     }}
                     numberOfLines={8}
                 >
@@ -139,7 +142,7 @@ const ProductDetails = ({ route: { params } }) => {
                 >
                     <Text
                         style={{
-                            color: colors.color3,
+                            color: colors.color1,
                             fontWeight: "200",
                         }}
                     >
@@ -207,7 +210,7 @@ const style = StyleSheet.create({
     },
 
     btn: {
-        backgroundColor: colors.color3,
+        backgroundColor: colors.color1,
         borderRadius: 100,
         padding: 5,
         marginVertical: 35,

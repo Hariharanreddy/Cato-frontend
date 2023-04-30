@@ -19,13 +19,13 @@ const OrderItem = ({
         <View
             style={{
                 ...styles.container,
-                backgroundColor: i % 2 === 0 ? colors.color2 : colors.color3,
+                backgroundColor: colors.color7,
             }}
         >
             <Text
                 style={{
                     ...styles.text,
-                    backgroundColor: i % 2 === 0 ? colors.color3 : colors.color1,
+                    backgroundColor: colors.color1,
                 }}
             >
              ID - #{id}
@@ -41,12 +41,12 @@ const OrderItem = ({
                 <Button
                     icon={"update"}
                     mode={"contained"}
-                    textColor={i % 2 === 0 ? colors.color2 : colors.color3}
+                    textColor={colors.color7}
                     style={{
                         width: 120,
                         alignSelf: "center",
                         marginTop: 10,
-                        backgroundColor: i % 2 === 0 ? colors.color3 : colors.color2,
+                        backgroundColor: colors.color1,
                     }}
                     onPress={() => updateHandler(id)}
                     loading={loading}
@@ -63,7 +63,7 @@ const TextBox = ({ title, value, i }) => (
     <Text
         style={{
             marginVertical: 6,
-            color: i % 2 === 0 ? colors.color3 : colors.color2,
+            color: colors.color1,
         }}
     >
         <Text style={{ fontWeight: "900" }}>{title} - </Text>
@@ -80,7 +80,7 @@ const styles = StyleSheet.create({
         elevation: 5,
     },
     text: {
-        color: colors.color2,
+        color: colors.color7,
         fontSize: 16,
         fontWeight: "900",
         marginHorizontal: -20,

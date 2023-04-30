@@ -14,7 +14,6 @@ const ButtonBox = ({
     <TouchableOpacity
       activeOpacity={0.8}
       style={{
-        
         height: 80,
         width: 80,
         borderRadius: 50,
@@ -25,13 +24,13 @@ const ButtonBox = ({
     >
       <Avatar.Icon
         size={50}
-        color={colors.color2}
-        style={{ backgroundColor: reverse ? colors.color1 : colors.color3 }}
+        color={colors.color7}
+        style={{ backgroundColor: reverse ? colors.color3 : colors.color1 }}
         icon={icon}
       />
       <Text
         style={{
-          color: colors.color3,
+          color: colors.color1,
           textAlign: "center",
         }}
       >

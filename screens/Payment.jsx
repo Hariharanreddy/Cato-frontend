@@ -170,7 +170,7 @@ const Payment = ({ navigation, route }) => {
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: colors.color3,
+        backgroundColor: colors.color7,
         padding: 30,
         borderRadius: 10,
         marginVertical: 20,
@@ -189,7 +189,7 @@ const styles = StyleSheet.create({
         fontWeight: "600",
         fontSize: 18,
         textTransform: "uppercase",
-        color: colors.color2,
+        color: colors.color1,
     },
     btn: {
         backgroundColor: "#17B169",

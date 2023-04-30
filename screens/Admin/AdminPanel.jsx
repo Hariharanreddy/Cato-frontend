@@ -53,7 +53,7 @@ const AdminPanel = ({ navigation }) => {
     );
 
     return (
-        <View style={{...defaultStyle, padding: 10}}>
+        <View style={{...defaultStyle, padding: 20}}>
             <Header back={true} />
             {/* Heading */}
             <Heading
@@ -84,7 +84,7 @@ const AdminPanel = ({ navigation }) => {
                             }}
                         >
                             <ButtonBox
-                                icon={"plus"}
+                                icon={"cat"}
                                 text={"Product"}
                                 handler={navigationHandler}
                             />
@@ -96,7 +96,7 @@ const AdminPanel = ({ navigation }) => {
                                 reverse={true}
                             />
                             <ButtonBox
-                                icon={"plus"}
+                                icon={"shape-plus"}
                                 text={"Category"}
                                 handler={navigationHandler}
                             />

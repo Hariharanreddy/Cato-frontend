@@ -52,6 +52,7 @@ const CartItem = ({
                     numberOfLines={1}
                     style={{
                         fontSize: 17,
+                        color: colors.color1
                     }}
                     onPress={() => navigate.navigate("productdetails", { id })}
                 >
@@ -63,6 +64,7 @@ const CartItem = ({
                     style={{
                         fontSize: 17,
                         fontWeight: "900",
+                        color: colors.color1
                     }}
                 >
                     ₹{amount}

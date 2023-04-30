@@ -71,7 +71,7 @@ const ConfirmOrder = () => {
             >
                 <Button
                     style={{
-                        backgroundColor: colors.color3,
+                        backgroundColor: colors.color1,
                         borderRadius: 100,
                         padding: 5,
                         margin: 10,
@@ -93,6 +93,7 @@ const PriceTag = ({ heading, value }) => (
             justifyContent: "space-between",
             alignItems: "center",
             marginVertical: 5,
+            
         }}
     >
         <Text style={{ fontWeight: "800" }}>{heading}</Text>

@@ -2,7 +2,7 @@ import { View, Text, Image } from 'react-native'
 import React from 'react'
 import { TouchableOpacity } from 'react-native'
 import { colors } from '../styles/styles'
-import { Button } from 'react-native-paper'
+import { Avatar, Button } from 'react-native-paper'
 
 const ProductCard = ({ stock, name, price, image, id, addToCardHandler, i, navigate }) => {
     return (
@@ -18,7 +18,7 @@ const ProductCard = ({ stock, name, price, image, id, addToCardHandler, i, navig
                     margin: 20,
                     borderRadius: 20,
                     height: 380,
-                    backgroundColor: i % 2 === 0 ? colors.color1 : colors.color2,
+                    backgroundColor: "rgb(253,238,222)"
                 }}
             >
                 <Image
@@ -48,7 +48,7 @@ const ProductCard = ({ stock, name, price, image, id, addToCardHandler, i, navig
                     <Text
                         numberOfLines={2}
                         style={{
-                            color: i % 2 === 0 ? colors.color2 : colors.color3,
+                            color: colors.color1,
                             fontSize: 25,
                             fontWeight: "300",
                             width: "60%",
@@ -60,7 +60,7 @@ const ProductCard = ({ stock, name, price, image, id, addToCardHandler, i, navig
                     <Text
                         numberOfLines={2}
                         style={{
-                            color: i % 2 === 0 ? colors.color2 : colors.color3,
+                            color: colors.color1,
                             fontSize: 20,
                             fontWeight: "700",
                         }}
@@ -71,7 +71,7 @@ const ProductCard = ({ stock, name, price, image, id, addToCardHandler, i, navig
 
                 <TouchableOpacity
                     style={{
-                        backgroundColor: i % 2 === 0 ? colors.color2 : colors.color3,
+                        backgroundColor: colors.color2,
                         borderRadius: 0,
                         paddingVertical: 5,
                         borderBottomRightRadius: 20,
@@ -81,8 +81,9 @@ const ProductCard = ({ stock, name, price, image, id, addToCardHandler, i, navig
                 >
                     <Button
                         onPress={() => addToCardHandler(id, name, price, image, stock)}
-                        textColor={i % 2 === 0 ? colors.color1 : colors.color2}
+                        textColor={colors.color1}
                     >
+                        
                         Add To Cart
                     </Button>
                 </TouchableOpacity>

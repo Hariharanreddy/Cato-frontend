@@ -49,7 +49,7 @@ const SearchModal = ({
             top: 0,
             zIndex: 100,
             backgroundColor: colors.color2,
-            padding: 35,
+            padding: 25,
             paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0,
         }}>
             <SafeAreaView>
@@ -58,9 +58,9 @@ const SearchModal = ({
                     onChangeText={(query) => setSearchQuery(query)}
                     value={searchQuery}
                     style={{
-                        marginTop: 20,
+                        marginTop: 30,
                         borderRadius: 20,
-                        backgroundColor: "#E8E8E8"
+                        backgroundColor: colors.color7,
                     }} />
 
                 <ScrollView>
@@ -91,9 +91,9 @@ export const SearchItem = ({ price, name, imgSrc, handler }) => (
         <TouchableOpacity onPress={handler}>
             <View
                 style={{
-                    padding: 20,
+                    padding: 10,
                     borderRadius: 10,
-                    backgroundColor: colors.color2,
+                    backgroundColor: colors.color7,
                     elevation: 5,
                     width: "100%",
                     alignItems: "center",
@@ -120,11 +120,14 @@ export const SearchItem = ({ price, name, imgSrc, handler }) => (
                     width: "80%",
                     paddingHorizontal: 30
                 }}>
-                    <Text numberOfLines={1}>{name}</Text>
+                    <Text style={{
+                        color: colors.color1
+                    }} numberOfLines={1}>{name}</Text>
                     <Headline
                         numberOfLines={1}
                         style={{
                             fontWeight: "900",
+                            color: colors.color1
                         }}>
                         ₹{price}
                     </Headline>

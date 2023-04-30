@@ -9,45 +9,6 @@ import { useGetOrders } from "../utils/hooks";
 import { useIsFocused } from "@react-navigation/native";
 import Heading from "../components/Heading";
 
-// export const orders = [{
-//     _id: "ajsdnajksdna",
-//     shippingInfo: {
-//         address: "76 street",
-//         city: "New york",
-//         country: "India",
-//         pincode: 492009
-//     },
-//     createdAt: "12-2-2022T2879",
-//     orderStatus: "Processing",
-//     paymentMethod: "COD",
-//     totalAmount: 2000
-// }, {
-//     _id: "ajsdnaasffdjksdna",
-//     shippingInfo: {
-//         address: "sahupara",
-//         city: "New york",
-//         country: "India",
-//         pincode: 492009
-//     },
-//     createdAt: "12-2-2022T2879",
-//     orderStatus: "Processing",
-//     paymentMethod: "COD",
-//     totalAmount: 2000
-// },
-// {
-//     _id: "ajsdnafdfajksdna",
-//     shippingInfo: {
-//         address: "Box chowk",
-//         city: "Mumbai",
-//         country: "India",
-//         pincode: 492009
-//     },
-//     createdAt: "12-2-2022T2879",
-//     orderStatus: "Processing",
-//     paymentMethod: "COD",
-//     totalAmount: 2000
-// }]
-
 
 const Orders = () => {
     const isFocused = useIsFocused();
