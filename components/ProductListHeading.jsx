@@ -16,7 +16,7 @@ const ProductListHeading = () => {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: colors.color3,
+    backgroundColor: colors.color1,
     flexDirection: "row",
     justifyContent: "space-between",
     height: 40,

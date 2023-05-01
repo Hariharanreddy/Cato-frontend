@@ -27,7 +27,7 @@ const ProductListItem = ({
                 <View
                     style={{
                         ...styles.container,
-                        backgroundColor: i % 2 === 0 ? colors.color1 : colors.color3,
+                        backgroundColor: colors.color7,
                     }}
                 >
                     <Image
@@ -45,7 +45,7 @@ const ProductListItem = ({
                         style={{
                             width: 60,
                             marginLeft: 10,
-                            color: colors.color2,
+                            color: colors.color1,
                         }}
                         numberOfLines={1}
                     >
@@ -55,7 +55,7 @@ const ProductListItem = ({
                     <Text
                         style={{
                             maxWidth: 120,
-                            color: colors.color2,
+                            color: colors.color1,
                         }}
                         numberOfLines={1}
                     >
@@ -65,7 +65,7 @@ const ProductListItem = ({
                     <Text
                         style={{
                             width: 60,
-                            color: colors.color2,
+                            color: colors.color1,
                         }}
                         numberOfLines={1}
                     >
@@ -75,7 +75,7 @@ const ProductListItem = ({
                     <Text
                         style={{
                             width: 40,
-                            color: colors.color2,
+                            color: colors.color1,
                         }}
                         numberOfLines={1}
                     >

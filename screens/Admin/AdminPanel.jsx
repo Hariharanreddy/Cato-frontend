@@ -66,7 +66,7 @@ const AdminPanel = ({ navigation }) => {
                 <>
                     <View
                         style={{
-                            backgroundColor: colors.color3,
+                            backgroundColor: colors.color7,
                             borderRadius: 20,
                             alignItems: "center",
                         }}
