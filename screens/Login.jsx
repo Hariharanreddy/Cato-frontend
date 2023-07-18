@@ -32,7 +32,7 @@ const Login = ({ navigation }) => {
                 {/* Heading */}
 
                 <Heading
-                    text1={"Welcome to Marketo,"}
+                    text1={"Meowlcome to Cato,"}
                     text2={"Please Log In"}
                     containerStyle={{ paddingTop: 70, margin: 25, marginTop: 50, marginBottom: 0 }} />
 

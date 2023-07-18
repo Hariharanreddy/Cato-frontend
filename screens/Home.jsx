@@ -15,8 +15,8 @@ import { Toast } from "react-native-toast-message/lib/src/Toast";
 
 const Home = () => {
   const [category, setCategory] = useState("");
-  const [activeSearch, setActiveSearch] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
+  const [activeSearch, setActiveSearch] = useState(false);
   const [categories, setCategories] = useState([]);
 
   const navigate = useNavigation();
