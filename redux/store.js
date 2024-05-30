@@ -16,9 +16,8 @@ export const store = configureStore({
   },
 });
 
-// export const server = "https://marketo-ecommerce-server.onrender.com/api/v1"
+export const server = "https://marketo-ecommerce-server.onrender.com/api/v1";
 // export const server = "https://cato-server-production.up.railway.app/api/v1"
 //this one is from cyclic
-export const server =
-  "http://cato-server-new-env.eba-ytzwhg59.ap-south-1.elasticbeanstalk.com/api/v1";
+// export const server = "http://192.168.29.234:5000/api/v1";
 // export const server = "http://localhost:5000/api/v1"

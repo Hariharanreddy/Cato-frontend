@@ -23,10 +23,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.hariharan_reddy.catoecommerce"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d892e4ff-4542-459f-be9e-271b269659bf"
+      }
     }
   }
 }
