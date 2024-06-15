@@ -62,7 +62,10 @@ const ForgetPassword = ({ navigation }) => {
             loading={loading}
             textColor={colors.color2}
             disabled={email === ""}
-            style={styles.btn}
+            style={{
+              ...styles.btn,
+              backgroundColor: email === "" ? "lightgrey" : colors.color1,
+            }}
             onPress={submitHandler}
           >
             Send OTP

@@ -22,7 +22,7 @@ const Header = ({ back, emptyCart = false }) => {
           style={{
             position: "absolute",
             left: 20,
-            top: 40,
+            top: 20,
             zIndex: 10,
           }}
           onPress={() => {
@@ -50,7 +50,7 @@ const Header = ({ back, emptyCart = false }) => {
         style={{
           position: "absolute",
           right: 20,
-          top: 40,
+          top: 20,
           zIndex: 10,
         }}
         onPress={emptyCart ? emptyCartHandler : () => navigate.navigate("cart")}

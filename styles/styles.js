@@ -13,8 +13,8 @@ export const colors = {
 };
 
 export const defaultStyle = StyleSheet.create({
-  padding: 35,
-  paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0,
+  padding: 20,
+  paddingTop: 30,
   flex: 1,
   backgroundColor: colors.color2,
 });
@@ -39,7 +39,6 @@ export const inputOptions = {
   style: inputStyling,
   mode: "outlined",
   activeOutlineColor: colors.color1,
-  
 };
 
 export const formStyles = StyleSheet.create({
